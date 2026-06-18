@@ -1,4 +1,4 @@
-/* 1. Global Reset: Prevents default browser spacing from messing up your layout */
+
 * {
     margin: 0;
     padding: 0;
