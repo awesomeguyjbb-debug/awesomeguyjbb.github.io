@@ -1,0 +1,69 @@
+/* 1. Global Reset: Prevents default browser spacing from messing up your layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4b1;
+    color: #333;
+}
+
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+.main-header {
+    background-color: #4a83bb;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.main-footer {
+    background-color: #34495e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: auto; 
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex: 1; 
+}
+
+.main-content {
+    flex: 3; 
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1; 
+    background-color: #eec;
+    padding: 20px;
+    border-left: 2px solid #ddd;
+}
+
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}
+
+.center {
+    text-align: center;
+}
+.linkcolor {
+    color: white;
+}
